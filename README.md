@@ -2,11 +2,11 @@
 
 '''hcl
 module "november-2024" {
-  source  = "elea0919/november-2024/module"
+  source  = "kaizenacademy/november-2024/module"
   version = "3.0.0"
-  region = "us-east-1"
-  vpc_cidr = "10.0.0.0/16"
-  subnet_cidr = "10.0.1.0/24"
-  igw_name = "Kaizen"
+  region = "us-east-1"   # Replace with your values
+  vpc_cidr = "10.0.0.0/16"   # Replace with your values
+  subnet_cidr = "10.0.1.0/24"   # Replace with your values
+  igw_name = "Kaizen"    # Replace with your values
 }
 '''

@@ -2,7 +2,7 @@
 
 ```hcl
 module "november-2024" {
-  source  = "kaizenacademy/november-2024/module"
+  source  = "elea0919/november-2024/module"
   version = "3.0.0"
   region = "us-east-1"   # Replace with your values
   vpc_cidr = "10.0.0.0/16"   # Replace with your values
